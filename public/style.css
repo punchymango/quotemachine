@@ -1,0 +1,49 @@
+/* Styles go here */
+
+body {
+  background-color: #7D6FA5;
+  animation: anim3 3s 1 forwards linear;
+}
+#generator {
+  background-color: #FFFFFF;
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 100px;
+  border-radius: 25px;
+  overflow: hidden;
+}
+/* #output {
+  height: 120px;
+} */
+#buttons {
+  margin: 170px 0 10px 0;
+}
+#buttons img {
+  height: 37px;
+  width: 37px;
+}
+
+
+
+@keyframes anim0 {
+  0% {}
+  50% {background-color:purple;}
+  100% {background-color:blue;}
+}
+@keyframes anim1 {
+  0% {}
+  50% {background-color:azure;}
+  100% {background-color:red;}
+}
+
+@keyframes anim2 {
+  0% {}
+  50% {background-color:silver;}
+  100% {background-color:red;}
+}
+
+@keyframes anim3 {
+  0% {}
+  50% {background-color:green;}
+  100% {background-color:orange;}
+}
