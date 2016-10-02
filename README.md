@@ -1,2 +1,1 @@
-# quotemachine
-Silly project, quote machine made with bootstrap
+Quote machine, simple, silly project
