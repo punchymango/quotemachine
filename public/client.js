@@ -23,7 +23,7 @@ var quotes = {
     ["'Forth, and fear no darkness!'", "- Theoden, King of Rohan"],
     ["'FOR PONY'", "- Richard"]
   ],
-  
+
   generate: function() {
     var quoteNumber = Math.floor(Math.random() * 20);
     var quote = this.quoteList[quoteNumber][0];
@@ -34,10 +34,10 @@ var quotes = {
 
 var view = {
   animations: [
-    "anim0 3s 1 forwards linear",
-    "anim1 3s 1 forwards linear",
-    "anim2 3s 1 forwards linear",
-    "anim3 3s 1 forwards linear"
+    "anim0 2s 1 forwards linear",
+    "anim1 2s 1 forwards linear",
+    "anim2 2s 1 forwards linear",
+    "anim3 2s 1 forwards linear"
   ],
 
   displayQuote: function(quote, source) {

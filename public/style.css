@@ -2,7 +2,7 @@
 
 body {
   background-color: #7D6FA5;
-  animation: anim3 3s 1 forwards linear;
+  animation: anim3 2s 1 forwards linear;
 }
 #generator {
   background-color: #FFFFFF;
@@ -26,24 +26,20 @@ body {
 
 
 @keyframes anim0 {
-  0% {}
-  50% {background-color:purple;}
-  100% {background-color:blue;}
+  0% {background-color: currentColor;}
+  100% {background-color:skyblue;}
 }
 @keyframes anim1 {
-  0% {}
-  50% {background-color:azure;}
-  100% {background-color:red;}
+  0% {background-color: currentColor;}
+  100% {background-color:orange;}
 }
 
 @keyframes anim2 {
-  0% {}
-  50% {background-color:silver;}
-  100% {background-color:red;}
+  0% {background-color: currentColor;}
+  100% {background-color:silver;}
 }
 
 @keyframes anim3 {
-  0% {}
-  50% {background-color:green;}
-  100% {background-color:orange;}
+  0% {background-color: currentColor;}
+  100% {background-color:forestgreen;}
 }
